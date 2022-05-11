@@ -1,0 +1,61 @@
+.container {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+
+	height: 6rem;
+
+	transform: translateX(-50%);
+
+	z-index: 2;
+}
+
+.container span {
+	position: absolute;
+	top: -3rem;
+	left: 50%;
+
+	width: calc(100% + 30ch);
+
+	color: #fff;
+	text-align: center;
+
+	transform: translateX(-50%);
+}
+
+.wrapper {
+	position: relative;
+
+	padding: 3px;
+	border: 2px solid #fff;
+	border-radius: 1000px;
+
+	width: 26px;
+	height: 50px;
+}
+
+.dot {
+	border-radius: 50%;
+
+	width: 16px;
+	height: 16px;
+
+	background-color: #fff;
+
+	animation: scroller-animation 2s ease infinite;
+}
+
+@keyframes scroller-animation {
+	0% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+	80% {
+		opacity: 0;
+		transform: translateY(24px);
+	}
+	100% {
+		opacity: 0;
+		transform: translateY(0);
+	}
+}

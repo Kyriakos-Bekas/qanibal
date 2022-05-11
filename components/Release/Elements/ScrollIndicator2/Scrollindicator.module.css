@@ -1,0 +1,28 @@
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.button {
+	border-radius: 50%;
+
+	width: 48px;
+	height: 48px;
+
+	background-color: #fff;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.arrow {
+	border-left: 2px solid #000;
+	border-bottom: 2px solid #000;
+
+	width: 16px;
+	height: 16px;
+
+	transform: rotate(-45deg);
+}
