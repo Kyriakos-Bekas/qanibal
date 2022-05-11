@@ -1,4 +1,3 @@
-// Importing Styles
 import styles from "@/styles/Release.module.css";
 
 // Importing Components

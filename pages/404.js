@@ -4,7 +4,7 @@ const NotFound = () => {
 	return (
 		<div className={styles.container}>
 			<h1>404</h1>
-			<h2>The page you are looking for doesn't exist</h2>
+			<h2>The page you are looking for doesn&apos;t exist</h2>
 		</div>
 	);
 };

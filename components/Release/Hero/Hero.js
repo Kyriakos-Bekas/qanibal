@@ -1,9 +1,4 @@
-// Importing Styles
 import styles from "@/components/Release/Hero/Hero.module.css";
-
-// Imprting Components
-import ScrollIndicator from "@/components/Release/Elements/ScrollIndicator/Scrollindicator";
-// import ScrollIndicator from "@/components/Release/Elements/ScrollIndicator2/Scrollindicator";
 
 const Hero = () => {
 	return (
