@@ -1,7 +1,12 @@
 .transport > p {
-	margin-bottom: 2rem;
-
 	color: #747474;
+}
+.transport > p:first-of-type {
+	margin-bottom: 0;
+}
+
+.transport > p:last-of-type {
+	margin-bottom: 2;
 }
 
 .link-container li {

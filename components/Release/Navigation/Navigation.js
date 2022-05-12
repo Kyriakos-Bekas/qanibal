@@ -1,15 +1,12 @@
-import { useRef, useEffect, useState } from "react";
+import { useRef } from "react";
 
-// Importing Styles
 import styles from "@/components/Release/Navigation/Navigation.module.css";
 
-// Importing Components
 import Link from "next/link";
 
 const ReleaseNav = () => {
 	const navigation = useRef();
 	const overlay = useRef();
-	const activeNavLink = useRef();
 
 	const navOpenClass = styles["nav-open"];
 
@@ -19,12 +16,6 @@ const ReleaseNav = () => {
 		navigation.current.classList.contains(navOpenClass)
 			? (overlay.current.style.pointerEvents = "all")
 			: (overlay.current.style.pointerEvents = "none");
-	};
-
-	const handleNavLinkClick = (e) => {
-		activeNavLink.current.classList.toggle("active");
-		activeNavLink.current = e.target;
-		activeNavLink.current.classList.toggle("active");
 	};
 
 	return (
@@ -37,44 +28,32 @@ const ReleaseNav = () => {
 				<ul>
 					<li>
 						<Link href='#current-events'>
-							<a ref={activeNavLink} onClick={handleNavLinkClick}>
-								Today's Events
-							</a>
+							<a>Today's Events</a>
 						</Link>
 					</li>
 					<li>
 						<Link href='#sponsors'>
-							<a ref={activeNavLink} onClick={handleNavLinkClick}>
-								Χορηγοί
-							</a>
+							<a>Χορηγοί</a>
 						</Link>
 					</li>
 					<li>
 						<Link href='#catalogue'>
-							<a ref={activeNavLink} onClick={handleNavLinkClick}>
-								Κατάλογος
-							</a>
+							<a>Κατάλογος</a>
 						</Link>
 					</li>
 					<li>
 						<Link href='#upcoming-lineups'>
-							<a ref={activeNavLink} onClick={handleNavLinkClick}>
-								Upcoming Lineups
-							</a>
+							<a>Upcoming Lineups</a>
 						</Link>
 					</li>
 					<li>
 						<Link href='#location-map'>
-							<a ref={activeNavLink} onClick={handleNavLinkClick}>
-								Χάρτης Τοποθεσίας
-							</a>
+							<a>Χάρτης Τοποθεσίας</a>
 						</Link>
 					</li>
 					<li>
 						<Link href='#transport'>
-							<a ref={activeNavLink} onClick={handleNavLinkClick}>
-								Μετακίνηση
-							</a>
+							<a>Μετακίνηση</a>
 						</Link>
 					</li>
 				</ul>

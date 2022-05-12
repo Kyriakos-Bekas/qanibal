@@ -7,8 +7,8 @@ const Menus = () => {
 		<section id='catalogue' className={styles.catalogue}>
 			<div className={styles.container}>
 				<div className={styles.details}>
-					<h1 className={styles["section-title"]}>Thirsty?</h1>
-					<p>Take a look at our drinks</p>
+					<h1 className={styles["section-title"]}>Δίψασες;</h1>
+					<p>Διάλεξε ένα από τα πολλά δροσιστικά ποτά του καταλόγου μας</p>
 				</div>
 
 				<div className={styles["img-container"]}>

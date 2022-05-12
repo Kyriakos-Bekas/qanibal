@@ -40,7 +40,7 @@ const sponsors = [
 const Sponsors = () => {
 	return (
 		<section className={styles.sponsors} id='sponsors'>
-			<h1>Χορηγοί</h1>
+			<h1>Μια χορηγία των</h1>
 
 			<div className={styles.container}>
 				{sponsors.map((sponsor) => (

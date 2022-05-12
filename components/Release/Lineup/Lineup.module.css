@@ -48,6 +48,14 @@
 	justify-content: flex-start;
 }
 
+.icon {
+	margin-right: 10px;
+
+	width: 18px;
+
+	fill: #161616;
+}
+
 .date {
 	margin: 0;
 

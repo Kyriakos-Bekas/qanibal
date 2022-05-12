@@ -6,7 +6,7 @@
 	padding: 0 5%;
 	border-bottom: 0.5px solid #fff;
 
-	min-height: 6vh;
+	min-height: 8vh;
 	width: 100%;
 
 	color: #fff;
@@ -141,12 +141,12 @@
 
 	.nav-links {
 		position: absolute;
-		top: calc(6vh + 0.5px);
+		top: calc(8vh + 0.5px);
 		right: 0;
 
 		padding: 1rem;
 
-		height: calc(94vh - 0.5px);
+		height: calc(92vh - 0.5px);
 		width: 70vw;
 
 		color: #fff;

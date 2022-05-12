@@ -9,9 +9,25 @@
 	clip-path: polygon(0 0, 100% 3%, 100% 100%, 0% 100%);
 }
 
+.container {
+	margin-bottom: 1rem;
+
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
 .date {
 	margin-bottom: 0;
 
 	color: #5eb043;
-	font-size: 1rem;
+	font-size: 0.8rem;
+}
+
+.icon {
+	margin-right: 10px;
+
+	width: 18px;
+
+	fill: #5eb043;
 }
