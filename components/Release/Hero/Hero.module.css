@@ -13,7 +13,12 @@
 	z-index: 1;
 }
 
-.overlay {
+.overlay-tablet {
+	visibility: hidden;
+}
+
+.overlay,
+.overlay-tablet {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -81,4 +86,35 @@
 	user-select: none;
 
 	z-index: 1;
+}
+
+@media screen and (min-width: 768px) and (max-width: 800px) {
+	.hero {
+		height: 50vh;
+	}
+
+	.overlay {
+		visibility: hidden;
+	}
+
+	.overlay-tablet {
+		visibility: visible;
+	}
+
+	.headline {
+		margin-bottom: 1.5rem;
+
+		font-size: 4.5rem;
+		text-shadow: 0px 0px 8px rgba(206, 89, 55, 0.8);
+	}
+
+	.headline span.the-earth {
+		font-size: 2.75rem;
+		text-shadow: 0px 0px 8px rgba(206, 89, 55, 0.8);
+	}
+
+	.headline span.from-plastic {
+		font-size: 1.75rem;
+		text-shadow: 0px 0px 8px rgba(206, 89, 55, 0.8);
+	}
 }

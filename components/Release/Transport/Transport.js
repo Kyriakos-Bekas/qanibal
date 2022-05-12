@@ -34,9 +34,11 @@ const transportlinks = [
 const Transport = () => {
 	return (
 		<section className={styles.transport} id='transport'>
-			<h1>Τελείωσε η συναυλία;</h1>
-			<p>Κανένα πρόβλημα!</p>
-			<p>Διάλεξε τον ευκολότερο τρόπο για να επιστρέψεις</p>
+			<div className={styles.details}>
+				<h1>Τελείωσε η συναυλία;</h1>
+				<p>Κανένα πρόβλημα!</p>
+				<p>Διάλεξε τον ευκολότερο τρόπο για να επιστρέψεις</p>
+			</div>
 
 			<ul className={styles["link-container"]}>
 				{transportlinks.map((link) => (

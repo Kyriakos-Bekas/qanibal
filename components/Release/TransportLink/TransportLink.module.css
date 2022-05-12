@@ -37,3 +37,17 @@
 
 	opacity: 0.33;
 }
+
+@media screen and (min-width: 768px) and (max-width: 800px) {
+	.link {
+		height: 60px;
+	}
+
+	.link:first-of-type {
+		margin-top: 0;
+	}
+
+	.icon {
+		transform: scale(0.4) rotate(45deg);
+	}
+}

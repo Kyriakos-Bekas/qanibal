@@ -106,3 +106,44 @@
 	opacity: 0.3;
 	transition: 0s;
 }
+
+@media screen and (min-width: 768px) and (max-width: 800px) {
+	.catalogue {
+		position: relative;
+	}
+
+	.cta,
+	.link {
+		width: calc(45vw - 3rem);
+
+		display: inline-block;
+	}
+
+	.cta {
+		position: absolute;
+		bottom: 150px;
+		left: 5vw;
+	}
+
+	.link {
+		padding: 0.75rem 1rem;
+	}
+
+	.img-container {
+		height: 220px;
+
+		flex-basis: 50%;
+	}
+
+	.img {
+		height: 100%;
+
+		object-fit: contain;
+	}
+
+	.details {
+		padding-right: 3rem;
+
+		flex-basis: 50%;
+	}
+}

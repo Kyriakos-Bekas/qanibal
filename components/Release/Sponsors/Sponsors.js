@@ -39,7 +39,7 @@ const sponsors = [
 
 const Sponsors = () => {
 	return (
-		<section className={styles.sponsors} id='sponsors'>
+		<section id='sponsors' className={styles.sponsors} id='sponsors'>
 			<h1>Μια χορηγία των</h1>
 
 			<div className={styles.container}>

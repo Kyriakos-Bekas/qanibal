@@ -1,14 +1,41 @@
-.transport > p {
+.transport h1 {
+	font-size: 2rem;
+	font-weight: 500;
+}
+
+.transport p {
 	color: #747474;
 }
-.transport > p:first-of-type {
+.transport p:first-of-type {
 	margin-bottom: 0;
 }
 
-.transport > p:last-of-type {
-	margin-bottom: 2;
+.transport p:last-of-type {
+	margin-bottom: 2rem;
 }
 
 .link-container li {
 	list-style: none;
+}
+
+@media screen and (min-width: 768px) and (max-width: 800px) {
+	.transport {
+		margin-bottom: 10vh;
+
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-start;
+	}
+
+	.details {
+		flex-basis: 50%;
+	}
+
+	.transport p {
+		padding-right: 1.5rem;
+	}
+
+	.link-container {
+		flex-basis: 50%;
+	}
 }
