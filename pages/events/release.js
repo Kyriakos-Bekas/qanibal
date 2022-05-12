@@ -13,14 +13,6 @@ import Map from "@/components/Release/Map/Map";
 import Menus from "@/components/Release/Menus/Menus";
 import Ad from "@/components/Release/Ad/Ad";
 
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
-// import {
-// 	faSearch,
-// 	faAmbulance,
-// 	faInstagram,
-// } from "@fortawesome/free-solid-svg-icons";
-
 const events = [
 	{
 		id: 1,

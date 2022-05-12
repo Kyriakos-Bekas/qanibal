@@ -32,6 +32,6 @@ yarn-error.log*
 .vercel
 
 # files
-
 box-shadow.txt
 lineups.json
+package-lock.json
