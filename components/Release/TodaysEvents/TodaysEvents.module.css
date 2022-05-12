@@ -1,5 +1,12 @@
 .events {
-	padding-top: 3rem;
+	margin: -3vh -5vw 0 -5vw;
+	padding: 10vh 5vw 4rem 5vw;
+
+	width: calc(100% + 10vw);
+
+	background-color: #f3f1f9;
+
+	clip-path: polygon(0 0, 100% 3%, 100% 100%, 0% 100%);
 }
 
 .date {

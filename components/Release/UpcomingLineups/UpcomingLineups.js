@@ -4,7 +4,7 @@ import LineupCarousel from "@/components/Release/LineupCarousel/LineupCarousel";
 
 const UpcomingLineups = ({ lineups }) => {
 	return (
-		<section>
+		<section id='upcoming-lineups'>
 			<h1>Upcoming Lineups</h1>
 
 			<LineupCarousel lineups={lineups} />

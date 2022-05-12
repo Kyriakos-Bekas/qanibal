@@ -10,6 +10,16 @@ import Transport from "@/components/Release/Transport/Transport";
 import Sponsors from "@/components/Release/Sponsors/Sponsors";
 import Footer from "@/components/Release/Footer/Footer";
 import Map from "@/components/Release/Map/Map";
+import Menus from "@/components/Release/Menus/Menus";
+import Ad from "@/components/Release/Ad/Ad";
+
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+// import {
+// 	faSearch,
+// 	faAmbulance,
+// 	faInstagram,
+// } from "@fortawesome/free-solid-svg-icons";
 
 const events = [
 	{
@@ -425,12 +435,14 @@ export default function Release() {
 
 			<main className={styles.main}>
 				<TodaysEvents bands={lineups[3].bands} date={lineups[3].date} />
+				<Sponsors />
+				<Menus />
 				<UpcomingLineups lineups={lineups} />
-
 				<Map />
 				<Transport />
-				<Sponsors />
 			</main>
+
+			{/* <Ad /> */}
 
 			<Footer />
 		</>

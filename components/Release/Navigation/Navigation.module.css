@@ -40,12 +40,61 @@
 .nav-links {
 	display: flex;
 	align-items: center;
+	justify-content: space-between;
 }
 
 .nav-links li {
 	list-style: none;
-	padding: 0 1.5rem;
 }
+
+/* ! Not used */
+.divider {
+	height: 0.5px;
+	width: 100%;
+
+	background-color: #ccc;
+}
+
+/* Social Media Icons */
+
+.social {
+	margin-bottom: 4rem;
+}
+
+.social h3 {
+	margin-bottom: 1.25rem;
+
+	font-size: 1.5rem;
+}
+
+.social-links {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.link-social {
+	margin-right: 1.5rem;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.link-social:hover .icon {
+	fill: #5eb043;
+}
+
+.icon {
+	width: 34px;
+	height: 34px;
+
+	fill: #fff;
+
+	transition: 0.2s ease-out;
+}
+
+/* ------------------ */
 
 .burger {
 	width: 30px;
@@ -95,8 +144,7 @@
 		top: calc(6vh + 0.5px);
 		right: 0;
 
-		padding-top: 3rem;
-		padding-left: 3rem;
+		padding: 1rem;
 
 		height: calc(94vh - 0.5px);
 		width: 70vw;
@@ -134,8 +182,35 @@
 		display: block;
 	}
 
-	.nav-links li {
-		padding: 1rem 0;
+	.nav-links ul {
+		width: 100%;
+
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: flex-start;
+	}
+
+	.nav-links ul li {
+		padding: 0.25rem 0;
+		border-radius: 4px;
+		width: 100%;
+	}
+
+	.nav-links ul li a {
+		padding: 0.5rem 1.5rem;
+		border-radius: 4px;
+
+		background-color: transparent;
+
+		transition: 0.2s ease-out;
+
+		display: block;
+	}
+
+	.nav-links ul li a.active,
+	.nav-links ul li:hover a {
+		background-color: #181818;
 	}
 
 	.burger {

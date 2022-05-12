@@ -1,0 +1,25 @@
+.ad {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+
+	width: 100vw;
+	height: 8vh;
+
+	box-shadow: rgba(0, 0, 0, 0.13) 0px 2px 4px 0px;
+
+	z-index: 8;
+}
+
+.ad .link,
+.ad img {
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	width: 100%;
+	height: 100%;
+
+	object-fit: cover;
+	object-position: top center;
+}

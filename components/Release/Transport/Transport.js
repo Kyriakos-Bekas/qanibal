@@ -33,7 +33,7 @@ const transportlinks = [
 
 const Transport = () => {
 	return (
-		<section className={styles.transport}>
+		<section className={styles.transport} id='transport'>
 			<h1>Μετακίνηση</h1>
 			<p>Διάλεξε τον ευκολότερο τρόπο για να επιστρέψεις</p>
 

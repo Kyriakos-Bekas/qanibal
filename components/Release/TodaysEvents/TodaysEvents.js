@@ -4,7 +4,7 @@ import EventCarousel from "@/components/Release/EventCarousel/EventCarousel";
 
 const TodaysEvents = ({ bands, date }) => {
 	return (
-		<section className={styles.events}>
+		<section className={styles.events} id='current-events'>
 			<p className={styles.date}>{date}</p>
 			<h1>Today's Event</h1>
 
