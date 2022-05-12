@@ -314,3 +314,52 @@
 		flex-basis: 45%;
 	}
 }
+
+@media screen and (min-width: 801px) {
+	.navigation {
+		padding: 0 10%;
+		width: 100vw;
+	}
+
+	.logo {
+		font-size: 1.25rem;
+	}
+
+	.nav-links ul {
+		display: flex;
+		align-items: center;
+	}
+
+	.overlay,
+	.social {
+		display: none;
+	}
+
+	/* * End of Added Code */
+
+	.nav-links ul li:not(:last-of-type) {
+		margin: 0 0.75rem;
+		border-radius: 4px;
+
+		flex-shrink: 0;
+	}
+
+	.nav-links ul li a {
+		padding: 0.5rem 1rem;
+		border-radius: 4px;
+
+		text-align: center;
+
+		background-color: transparent;
+
+		transition: 0.2s ease-out;
+
+		display: block;
+	}
+
+	.nav-links ul li a.active,
+	.nav-links ul li a:hover,
+	.nav-links ul li:hover a {
+		background-color: #181818;
+	}
+}

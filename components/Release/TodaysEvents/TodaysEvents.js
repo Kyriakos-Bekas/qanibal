@@ -14,7 +14,7 @@ const TodaysEvents = ({ bands, date }) => {
 				</svg>
 				<p className={styles.date}>{date}</p>
 			</div>
-			<h1>Today's Event</h1>
+			<h1>Today's Events</h1>
 
 			<EventCarousel bands={bands} />
 		</section>

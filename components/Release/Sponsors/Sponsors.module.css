@@ -27,7 +27,7 @@
 	grid-row: 2/3;
 }
 
-@media screen and (min-width: 768px) and (max-width: 800px) {
+@media screen and (min-width: 768px) {
 	.sponsors.sponsors.sponsors {
 		margin-bottom: 3vh;
 	}

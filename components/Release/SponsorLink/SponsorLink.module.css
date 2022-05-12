@@ -1,9 +1,5 @@
 .link {
 	position: relative;
-	/* margin: 0 0.5rem; */
-
-	/* height: 48px;
-	width: 48px; */
 	height: 100%;
 	width: 100%;
 
@@ -11,10 +7,6 @@
 }
 
 .logo-img {
-	/* position: absolute;
-	left: 0;
-	right: 0; */
-
 	height: 100%;
 	width: 100%;
 }

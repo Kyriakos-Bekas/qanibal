@@ -62,3 +62,13 @@
 	font-size: 1rem;
 	font-weight: 400;
 }
+
+@media screen and (min-width: 801px) {
+	.lineup:first-of-type {
+		margin-left: 10vw;
+	}
+
+	.lineup:last-of-type {
+		margin-right: 10vw;
+	}
+}

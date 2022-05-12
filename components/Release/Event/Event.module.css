@@ -56,3 +56,13 @@
 	font-size: 1.25rem;
 	font-weight: 400;
 }
+
+@media screen and (min-width: 801px) {
+	.event:first-of-type {
+		margin-left: 10vw;
+	}
+
+	.event:last-of-type {
+		margin-right: 10vw;
+	}
+}

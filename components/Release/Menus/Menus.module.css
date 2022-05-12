@@ -147,3 +147,62 @@
 		flex-basis: 50%;
 	}
 }
+
+@media screen and (min-width: 801px) {
+	.catalogue {
+		position: relative;
+
+		margin: 0 -10vw;
+		padding: 7.5rem 10vw;
+
+		width: calc(100% + 20vw);
+
+		background: rgb(47, 45, 99);
+		background: linear-gradient(
+			90deg,
+			rgba(47, 45, 99, 1) 0%,
+			rgba(47, 45, 99, 1) 52%,
+			rgba(255, 255, 255, 1) 52%,
+			rgba(255, 255, 255, 1) 100%
+		);
+	}
+
+	.cta,
+	.link {
+		width: 25vw;
+
+		display: inline-block;
+	}
+
+	.cta {
+		position: absolute;
+		bottom: 150px;
+		left: 10vw;
+	}
+
+	.link {
+		padding: 0.75rem 1rem;
+	}
+
+	.img-container {
+		margin-left: 30vw;
+
+		height: 220px;
+
+		flex-basis: 50%;
+
+		z-index: 2;
+	}
+
+	.img {
+		height: 100%;
+
+		object-fit: contain;
+	}
+
+	.details {
+		padding-right: 3rem;
+
+		flex-basis: 50%;
+	}
+}

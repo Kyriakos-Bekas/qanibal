@@ -59,3 +59,15 @@
 .width-4 {
 	width: calc(4 * 280px + 3 * 5vw);
 }
+
+@media screen and (min-width: 801px) {
+	.slider-wrapper {
+		margin: 0 -10vw;
+
+		width: calc(100% + 20vw);
+	}
+
+	.slider-inner {
+		gap: 2.5vw;
+	}
+}
