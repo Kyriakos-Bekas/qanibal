@@ -1,45 +1,10 @@
-// Importing Styling
+import SponsorLink from "@/components/Release/Sponsors/SponsorLink/SponsorLink";
+
 import styles from "@/components/Release/Sponsors/Sponsors.module.css";
 
-// Importing Components
-import SponsorLink from "@/components/Release/SponsorLink/SponsorLink";
-
-const sponsors = [
-	{
-		img: {
-			src: "/logos/coca-cola.png",
-			alt: "Coca Cola Logo",
-		},
-	},
-	{
-		img: {
-			src: "/logos/ab.png",
-			alt: "AB Logo",
-		},
-	},
-	{
-		img: {
-			src: "/logos/schwepps.png",
-			alt: "Schwepp's Logo",
-		},
-	},
-	{
-		img: {
-			src: "/logos/sklavenitis.png",
-			alt: "Sklavenitis Logo",
-		},
-	},
-	// {
-	// 	img: {
-	// 		src: "/logos/nestle.png",
-	// 		alt: "Nestle Logo",
-	// 	},
-	// },
-];
-
-const Sponsors = () => {
+const Sponsors = ({ sponsors }) => {
 	return (
-		<section id='sponsors' className={styles.sponsors} id='sponsors'>
+		<section className={styles.sponsors} id='sponsors'>
 			<h1>Μια χορηγία των</h1>
 
 			<div className={styles.container}>

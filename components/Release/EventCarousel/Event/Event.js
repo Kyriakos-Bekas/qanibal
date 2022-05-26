@@ -1,5 +1,4 @@
-// Importing Styles
-import styles from "@/components/Release/Event/Event.module.css";
+import styles from "@/components/Release/EventCarousel/Event/Event.module.css";
 
 const Event = (props) => {
 	return (

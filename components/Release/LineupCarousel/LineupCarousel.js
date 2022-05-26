@@ -1,10 +1,7 @@
 import { useRef } from "react";
+import Lineup from "@/components/Release/LineupCarousel/Lineup/Lineup";
 
-// Importing Styles
 import styles from "@/components/Release/LineupCarousel/LineupCarousel.module.css";
-
-// Importing Components
-import Lineup from "@/components/Release/Lineup/Lineup";
 
 const LineupCarousel = ({ lineups }) => {
 	const slider = useRef();

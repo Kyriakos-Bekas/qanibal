@@ -1,10 +1,7 @@
 import { useRef } from "react";
+import Event from "@/components/Release/EventCarousel/Event/Event";
 
-// Importing Styles
 import styles from "@/components/Release/EventCarousel/EventCarousel.module.css";
-
-// Importing Components
-import Event from "@/components/Release/Event/Event";
 
 const EventsCarousel = ({ bands }) => {
 	const slider = useRef();

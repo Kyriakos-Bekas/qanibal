@@ -1,72 +1,5 @@
-import styles from "@/styles/Release.module.css";
-
-// Importing Components
-import Head from "next/head";
-import Navigation from "@/components/Release/Navigation/Navigation";
-import Hero from "@/components/Release/Hero/Hero";
-import TodaysEvents from "@/components/Release/TodaysEvents/TodaysEvents";
-import UpcomingLineups from "@/components/Release/UpcomingLineups/UpcomingLineups";
-import Transport from "@/components/Release/Transport/Transport";
-import Sponsors from "@/components/Release/Sponsors/Sponsors";
-import Footer from "@/components/Release/Footer/Footer";
-import Map from "@/components/Release/Map/Map";
-import Menus from "@/components/Release/Menus/Menus";
-import Ad from "@/components/Release/Ad/Ad";
-
-const events = [
-	{
-		id: 1,
-		title: "Lorem ipsum 1",
-		duration: "18:00-20:30",
-		stage: "Stage XYZ",
-		thumbnail: {
-			url: "https://www.releaseathens.gr/wp-content/uploads/2022/04/Square-event-cover-PAROV-1024x1024.jpg",
-			alt: "Band Thumbnail",
-		},
-	},
-	{
-		id: 2,
-		title: "Lorem ipsum 2",
-		duration: "18:00-20:30",
-		stage: "Stage XYZ",
-		thumbnail: {
-			url: "https://www.releaseathens.gr/wp-content/uploads/2022/04/Square-event-cover-PAROV-1024x1024.jpg",
-			alt: "Band Thumbnail",
-		},
-	},
-	{
-		id: 3,
-		title: "Lorem ipsum 3",
-		duration: "18:00-20:30",
-		stage: "Stage XYZ",
-		thumbnail: {
-			url: "https://www.releaseathens.gr/wp-content/uploads/2022/04/Square-event-cover-PAROV-1024x1024.jpg",
-			alt: "Band Thumbnail",
-		},
-	},
-	{
-		id: 4,
-		title: "Lorem ipsum 4",
-		duration: "18:00-20:30",
-		stage: "Stage XYZ",
-		thumbnail: {
-			url: "https://www.releaseathens.gr/wp-content/uploads/2022/04/Square-event-cover-PAROV-1024x1024.jpg",
-			alt: "Band Thumbnail",
-		},
-	},
-	{
-		id: 5,
-		title: "Lorem ipsum 5",
-		duration: "18:00-20:30",
-		stage: "Stage XYZ",
-		thumbnail: {
-			url: "https://www.releaseathens.gr/wp-content/uploads/2022/04/Square-event-cover-PAROV-1024x1024.jpg",
-			alt: "Band Thumbnail",
-		},
-	},
-];
-
-const lineups = [
+// Lineup List
+export const lineups = [
 	{
 		date: "Τετάρτη 8/6/2022",
 		thumbnail: {
@@ -408,35 +341,86 @@ const lineups = [
 	},
 ];
 
-export default function Release() {
-	return (
-		<>
-			<Head>
-				<title>Release Athens | Qoncept</title>
-				<meta
-					name='description'
-					content='This is the Release Athens Event webpage. Powered by Wikodid: Qoncept.'
-				/>
-				<meta
-					name='keywords'
-					content='Release, Athens, Festival, Event, Qoncept, Wikodid, Metal, Rock'
-				/>
-			</Head>
-			<Navigation />
-			<Hero />
+// Sponsors List
+export const sponsors = [
+	{
+		img: {
+			src: "/logos/coca-cola.png",
+			alt: "Coca Cola Logo",
+		},
+	},
+	{
+		img: {
+			src: "/logos/ab.png",
+			alt: "AB Logo",
+		},
+	},
+	{
+		img: {
+			src: "/logos/schwepps.png",
+			alt: "Schwepp's Logo",
+		},
+	},
+	{
+		img: {
+			src: "/logos/sklavenitis.png",
+			alt: "Sklavenitis Logo",
+		},
+	},
+];
 
-			<main className={styles.main}>
-				<TodaysEvents bands={lineups[3].bands} date={lineups[3].date} />
-				<Sponsors />
-				<Menus />
-				<UpcomingLineups lineups={lineups} />
-				<Map />
-				<Transport />
-			</main>
+// Transport Links List
+export const transportLinks = [
+	{
+		title: "Μετρό",
+		url: "#",
+		img: {
+			src: "/transport/athens-metro.png",
+			alt: "Athena Transport Logo",
+		},
+	},
+	{
+		title: "Λεωφορείο",
+		url: "#",
+		img: {
+			src: "/transport/athens-bus.png",
+			alt: "Athens Metro Logo",
+		},
+	},
+	{
+		title: "Τραμ",
+		url: "#",
+		img: {
+			src: "/transport/athens-tram.png",
+			alt: "Beat Taxi logo",
+		},
+	},
+];
 
-			{/* <Ad /> */}
-
-			<Footer />
-		</>
-	);
-}
+// Menu Categories List
+export const catalogues = [
+	{
+		title: "Φαγητό",
+		url: "#",
+		img: {
+			src: "/menu-categories/food.png",
+			alt: "Food Image Category",
+		},
+	},
+	{
+		title: "Ποτό",
+		url: "#",
+		img: {
+			src: "/menu-categories/drinks.png",
+			alt: "Drinks Image Category",
+		},
+	},
+	{
+		title: "Παγωτό",
+		url: "#",
+		img: {
+			src: "/menu-categories/ice-cream.png",
+			alt: "Ice Cream Image Category",
+		},
+	},
+];

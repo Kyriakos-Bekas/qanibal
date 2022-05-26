@@ -1,30 +1,26 @@
+import Link from "next/link";
+import MenuItem from "@/components/Release/Menus/MenuItem/MenuItem";
+
 import styles from "@/components/Release/Menus/Menus.module.css";
 
-import Link from "next/link";
-
-const Menus = () => {
+const Menus = ({ catalogues }) => {
 	return (
 		<section id='catalogue' className={styles.catalogue}>
 			<div className={styles.container}>
 				<div className={styles.details}>
-					<h1 className={styles["section-title"]}>Δίψασες;</h1>
-					<p>Διάλεξε ένα από τα πολλά δροσιστικά ποτά του καταλόγου μας</p>
+					<h1>Food & Drinks</h1>
+					<p>
+						Ό,τι κι αν χρειαστείς είναι εδώ! Πάτα πάνω στην κατηγορία που θες
+						για να δεις το αντίστοιχο μενού
+					</p>
 				</div>
 
-				<div className={styles["img-container"]}>
-					<img
-						src='https://freepikpsd.com/file/2020/10/Cocktail-Drink-PNG-File-534x1024.png'
-						alt='drink'
-						className={styles.img}
-					/>
+				<div className={styles["catalogues-container"]}>
+					{catalogues.map((catalogue) => (
+						<MenuItem key={catalogue.title} category={catalogue} />
+					))}
 				</div>
 			</div>
-
-			<button className={styles.cta}>
-				<Link href='#'>
-					<a className={styles.link}>View catalogue</a>
-				</Link>
-			</button>
 		</section>
 	);
 };

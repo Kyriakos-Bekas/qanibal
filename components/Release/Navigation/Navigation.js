@@ -1,10 +1,9 @@
 import { useRef } from "react";
+import Link from "next/link";
 
 import styles from "@/components/Release/Navigation/Navigation.module.css";
 
-import Link from "next/link";
-
-const ReleaseNav = () => {
+const ReleaseNav = ({ locale }) => {
 	const navigation = useRef();
 	const overlay = useRef();
 
@@ -20,25 +19,22 @@ const ReleaseNav = () => {
 
 	return (
 		<nav className={styles.navigation} ref={navigation}>
-			<div className={styles.logo}>naviQ</div>
+			<Link href='#'>
+				<a className={styles.logo}>qanibal</a>
+			</Link>
 
 			<div className={styles.overlay} ref={overlay} onClick={handleClick}></div>
 
 			<div className={styles["nav-links"]}>
 				<ul>
 					<li>
-						<Link href='#current-events'>
-							<a>Today's Events</a>
-						</Link>
-					</li>
-					<li>
-						<Link href='#sponsors'>
-							<a>Χορηγοί</a>
-						</Link>
-					</li>
-					<li>
 						<Link href='#catalogue'>
 							<a>Κατάλογος</a>
+						</Link>
+					</li>
+					<li>
+						<Link href='#current-events'>
+							<a>Today's Events</a>
 						</Link>
 					</li>
 					<li>
@@ -103,6 +99,12 @@ const ReleaseNav = () => {
 						</Link>
 					</div>
 				</div>
+			</div>
+
+			<div className={styles.locale}>
+				<Link href={locale === "gr" ? "/en" : "/"}>
+					<a>{locale === "gr" ? "EN" : "GR"}</a>
+				</Link>
 			</div>
 
 			<div className={styles.burger} onClick={handleClick}>

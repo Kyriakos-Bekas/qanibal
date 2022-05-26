@@ -26,7 +26,7 @@ const Home = () => {
 					content='Release, Athens, Festival, Event, Qanibal, Wikodid, Metal, Rock'
 				/>
 			</Head>
-			<Navigation locale='gr' />
+			<Navigation locale='en' />
 			<Hero />
 
 			<main className={styles.main}>

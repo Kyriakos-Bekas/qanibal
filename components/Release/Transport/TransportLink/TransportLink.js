@@ -1,8 +1,6 @@
-// Importing styles
-import styles from "@/components/Release/TransportLink/TransportLink.module.css";
-
-// Importing Components
 import Link from "next/link";
+
+import styles from "@/components/Release/Transport/TransportLink/TransportLink.module.css";
 
 const TransportLink = (props) => {
 	return (

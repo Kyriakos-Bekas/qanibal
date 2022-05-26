@@ -1,15 +1,14 @@
-import styles from "@/components/Release/Footer/Footer.module.css";
-
 import Link from "next/link";
+
+import styles from "@/components/Release/Footer/Footer.module.css";
 
 const Footer = () => {
 	return (
 		<footer className={styles.footer}>
 			<div className={styles.container}>
-				<div className={styles.logo}>naviQ</div>
+				<div className={styles.logo}>qanibal</div>
 
 				<section className={styles.section}>
-					{/* <h1 className={styles["section-title"]}>Section Title</h1> */}
 					<ul>
 						<li>
 							<Link href='#'>

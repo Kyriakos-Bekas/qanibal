@@ -1,5 +1,5 @@
 // Importing Styling
-import styles from "@/components/Release/SponsorLink/SponsorLink.module.css";
+import styles from "@/components/Release/Sponsors/SponsorLink/SponsorLink.module.css";
 
 // Importing Components
 import Link from "next/link";

@@ -1,6 +1,6 @@
-import styles from "@/components/Release/Ad/Ad.module.css";
-
 import Link from "next/link";
+
+import styles from "@/components/Release/Ad/Ad.module.css";
 
 const Ad = () => {
 	return (

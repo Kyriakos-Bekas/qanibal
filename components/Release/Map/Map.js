@@ -1,6 +1,6 @@
-import styles from "@/components/Release/Map/Map.module.css";
-
 import Link from "next/link";
+
+import styles from "@/components/Release/Map/Map.module.css";
 
 const Map = () => {
 	return (

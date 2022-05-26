@@ -1,4 +1,4 @@
-import styles from "@/components/Release/Lineup/Lineup.module.css";
+import styles from "@/components/Release/LineupCarousel/Lineup/Lineup.module.css";
 
 const Lineup = (props) => {
 	return (
