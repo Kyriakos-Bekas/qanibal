@@ -1,7 +1,7 @@
 .section {
 	position: relative;
 
-	margin: 0 -5vw;
+	margin: 0 -5vw !important;
 
 	width: 100vw;
 	height: 30vh;
@@ -38,7 +38,7 @@
 
 @media screen and (min-width: 801px) {
 	.section {
-		margin: 0 -10vw;
+		margin: 0 -10vw !important;
 
 		width: 100vw;
 		height: 40vh;

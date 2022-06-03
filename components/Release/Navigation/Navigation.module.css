@@ -51,6 +51,10 @@
 	margin-right: auto;
 }
 
+.logo img {
+	max-height: 28px;
+}
+
 /* Nav-links */
 
 .nav-links {

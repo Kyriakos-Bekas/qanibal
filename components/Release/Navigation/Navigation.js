@@ -20,7 +20,9 @@ const ReleaseNav = ({ locale }) => {
 	return (
 		<nav className={styles.navigation} ref={navigation}>
 			<Link href='#'>
-				<a className={styles.logo}>qanibal</a>
+				<a className={styles.logo}>
+					<img src='/logos/qanibal/wordmark.svg' alt='Qanibal Logo' />
+				</a>
 			</Link>
 
 			<div className={styles.overlay} ref={overlay} onClick={handleClick}></div>

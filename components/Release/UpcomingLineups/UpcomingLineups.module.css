@@ -19,3 +19,16 @@
 .btn:hover {
 	background-color: #498a34;
 }
+
+.end {
+	margin-top: -4rem;
+
+	width: 100%;
+	min-height: 140px;
+
+	font-size: 1rem;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}

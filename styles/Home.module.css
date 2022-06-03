@@ -1,14 +1,14 @@
 .main {
 	position: relative;
 
-	margin: 0 auto 2rem auto;
+	margin: 0 auto;
 
 	width: 90%;
 
 	z-index: 2;
 }
 
-.main > section {
+.main > section:not(:last-of-type) {
 	margin-bottom: 10vh;
 }
 
@@ -16,8 +16,8 @@
 	margin-bottom: 5vh;
 }
 
-.main > section:last-of-type {
-	margin-bottom: 15vh;
+section#location-map {
+	margin-bottom: 0;
 }
 
 .main > section > h1 {
@@ -26,12 +26,8 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 800px) {
-	.main > section {
+	.main > section:not(:last-of-type) {
 		margin-bottom: 5vh;
-	}
-
-	.main > section:last-of-type {
-		margin-bottom: 8vh;
 	}
 }
 

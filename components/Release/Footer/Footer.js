@@ -6,23 +6,20 @@ const Footer = () => {
 	return (
 		<footer className={styles.footer}>
 			<div className={styles.container}>
-				<div className={styles.logo}>qanibal</div>
+				<div className={styles.logo}>
+					<img src='/logos/qanibal/logo-full.svg' alt='Qanibal Logo' />
+				</div>
 
 				<section className={styles.section}>
 					<ul>
 						<li>
-							<Link href='#'>
+							<Link href='https://www.releaseathens.gr/'>
 								<a>Release Athens</a>
 							</Link>
 						</li>
 						<li>
-							<Link href='#'>
+							<Link href='https://www.wikodid.gr/'>
 								<a>Wikodid</a>
-							</Link>
-						</li>
-						<li>
-							<Link href='#'>
-								<a>Help</a>
 							</Link>
 						</li>
 					</ul>

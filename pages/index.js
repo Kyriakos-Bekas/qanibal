@@ -12,6 +12,8 @@ import styles from "@/styles/Home.module.css";
 
 import { lineups, transportLinks, catalogues } from "data/data";
 
+let counter = 0;
+
 const Home = () => {
 	return (
 		<>
@@ -31,8 +33,17 @@ const Home = () => {
 
 			<main className={styles.main}>
 				<Menus catalogues={catalogues} />
-				<TodaysEvents bands={lineups[3].bands} date={lineups[3].date} />
-				<UpcomingLineups lineups={lineups} />
+				<TodaysEvents
+					bands={lineups[counter].bands}
+					date={lineups[counter].date}
+				/>
+				<UpcomingLineups
+					lineups={
+						counter + 1 <= lineups.length
+							? lineups.filter((lineup, index) => index > counter)
+							: []
+					}
+				/>
 				<Map />
 				<Transport transportLinks={transportLinks} />
 			</main>
