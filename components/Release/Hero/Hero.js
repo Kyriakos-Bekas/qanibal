@@ -12,7 +12,7 @@ const Hero = () => {
 
 			<p className={styles.date}>8 Ιουνίου - 23 Ιουλίου 2022</p>
 
-			<img src='/overlay-var-2.png' alt='overlay' className={styles.overlay} />
+			<img src='/hero-overlay.png' alt='overlay' className={styles.overlay} />
 			<img
 				src='/hero-overlay-desktop.png'
 				alt='overlay'
