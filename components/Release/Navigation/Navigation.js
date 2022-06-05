@@ -31,7 +31,7 @@ const ReleaseNav = ({ locale }) => {
 				<ul>
 					<li>
 						<Link href='#catalogue'>
-							<a>Κατάλογος</a>
+							<a>Food & Drinks</a>
 						</Link>
 					</li>
 					<li>
@@ -46,12 +46,12 @@ const ReleaseNav = ({ locale }) => {
 					</li>
 					<li>
 						<Link href='#location-map'>
-							<a>Χάρτης Τοποθεσίας</a>
+							<a>{locale === "gr" ? "Χάρτης Τοποθεσίας" : "Location Map"}</a>
 						</Link>
 					</li>
 					<li>
 						<Link href='#transport'>
-							<a>Μετακίνηση</a>
+							<a>{locale === "gr" ? "Μετακίνηση" : "Transportation"}</a>
 						</Link>
 					</li>
 				</ul>
@@ -60,7 +60,7 @@ const ReleaseNav = ({ locale }) => {
 					<h3>Follow Release</h3>
 
 					<div className={styles["social-links"]}>
-						<Link href='#'>
+						<Link href='https://www.instagram.com/Release_Athens/'>
 							<a
 								target='_blank'
 								rel='noopener'
@@ -73,7 +73,7 @@ const ReleaseNav = ({ locale }) => {
 								</svg>
 							</a>
 						</Link>
-						<Link href='#'>
+						<Link href='https://www.facebook.com/releaseathens/'>
 							<a
 								target='_blank'
 								rel='noopener'
@@ -86,7 +86,7 @@ const ReleaseNav = ({ locale }) => {
 								</svg>
 							</a>
 						</Link>
-						<Link href='#'>
+						<Link href='https://twitter.com/ReleaseAthens'>
 							<a
 								target='_blank'
 								rel='noopener'
@@ -104,7 +104,7 @@ const ReleaseNav = ({ locale }) => {
 			</div>
 
 			<div className={styles.locale}>
-				<Link href={locale === "gr" ? "/en" : "/"}>
+				<Link href={locale === "gr" ? "/en/release-2022/" : "/release-2022/"}>
 					<a>{locale === "gr" ? "EN" : "GR"}</a>
 				</Link>
 			</div>

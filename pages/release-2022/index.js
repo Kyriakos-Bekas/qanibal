@@ -10,7 +10,7 @@ import Footer from "@/components/Release/Footer/Footer";
 
 import styles from "@/styles/Home.module.css";
 
-import { lineups, transportLinks, catalogues } from "data/data";
+import { lineups, transportLinks, catalogues } from "@/data/data";
 
 let counter = 0;
 
@@ -28,9 +28,7 @@ const Home = () => {
 					content='Release, Athens, Festival, Event, Qanibal, Wikodid, Metal, Rock'
 				/>
 			</Head>
-
 			<Navigation locale='gr' />
-
 			<Hero />
 
 			<main className={styles.main}>

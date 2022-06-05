@@ -1,16 +1,16 @@
 import Head from "next/head";
 import Navigation from "@/components/Release/Navigation/Navigation";
-import Hero from "@/components/Release/Hero/Hero";
-import Menus from "@/components/Release/Menus/Menus";
-import TodaysEvents from "@/components/Release/TodaysEvents/TodaysEvents";
-import UpcomingLineups from "@/components/Release/UpcomingLineups/UpcomingLineups";
-import Map from "@/components/Release/Map/Map";
-import Transport from "@/components/Release/Transport/Transport";
-import Footer from "@/components/Release/Footer/Footer";
+import Hero from "@/components/ReleaseEn/Hero/Hero";
+import Menus from "@/components/ReleaseEn/Menus/Menus";
+import TodaysEvents from "@/components/ReleaseEn/TodaysEvents/TodaysEvents";
+import UpcomingLineups from "@/components/ReleaseEn/UpcomingLineups/UpcomingLineups";
+import Map from "@/components/ReleaseEn/Map/Map";
+import Transport from "@/components/ReleaseEn/Transport/Transport";
+import Footer from "@/components/ReleaseEn/Footer/Footer";
 
 import styles from "@/styles/Home.module.css";
 
-import { lineups, transportLinks, catalogues } from "data/data";
+import { lineups, transportLinks, catalogues } from "@/data/en/data";
 
 let counter = 0;
 
@@ -29,7 +29,7 @@ const Home = () => {
 				/>
 			</Head>
 
-			<Navigation locale='gr' />
+			<Navigation locale='en' />
 
 			<Hero />
 

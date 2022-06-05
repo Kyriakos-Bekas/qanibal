@@ -344,7 +344,7 @@ export const lineups = [
 // Transport Links List
 export const transportLinks = [
 	{
-		title: "Μετρό",
+		title: "Mtero / Subway",
 		url: "https://www.google.com/maps/dir/Plateia+nerou,+Kallithea/%CE%A3%CF%84%CE%B1%CE%B8%CE%BC%CE%BF%CF%82+%CE%B7%CF%83%CE%B1%CF%80+%CF%86%CE%B1%CE%BB%CE%B7%CF%81%CE%BF,+Pireas/@37.939602,23.6712624,15z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x14a1bc141e8c9825:0x508a4c5f64420ab5!2m2!1d23.6873308!2d37.9386584!1m5!1m1!1s0x14a1bb5d2e6ae8d3:0x9258afc11e7b6172!2m2!1d23.6652257!2d37.9449986?utm_medium=s2email&shorturl=1",
 		img: {
 			src: "/transport/athens-metro.png",
@@ -352,7 +352,7 @@ export const transportLinks = [
 		},
 	},
 	{
-		title: "Λεωφορείο",
+		title: "Bus",
 		url: "https://www.google.com/maps/dir/Plateia+nerou,+Kallithea/Epaminonda,+Kallithea+176+74/@37.9393938,23.6867708,17z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x14a1bc141e8c9825:0x508a4c5f64420ab5!2m2!1d23.6873308!2d37.9386584!1m5!1m1!1s0x14a1bc14c5b65f2d:0xd4795af639a4be2f!2m2!1d23.6878909!2d37.9413837?utm_medium=s2email&shorturl=1",
 		img: {
 			src: "/transport/athens-bus.png",
@@ -360,7 +360,7 @@ export const transportLinks = [
 		},
 	},
 	{
-		title: "Τραμ",
+		title: "Tram",
 		url: "https://www.google.com/maps/dir/Plateia+nerou,+Kallithea/Aghia+Skepi,+Paleo+Faliro+175+64/@37.9368702,23.6861258,16z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x14a1bc141e8c9825:0x508a4c5f64420ab5!2m2!1d23.6873308!2d37.9386584!1m5!1m1!1s0x14a1bc3da0fb18ef:0xf5d1b90a4e849e68!2m2!1d23.6938632!2d37.9338408",
 		img: {
 			src: "/transport/athens-tram.png",
@@ -372,24 +372,24 @@ export const transportLinks = [
 // Menu Categories List
 export const catalogues = [
 	{
-		title: "Φαγητό",
-		url: "https://www.wikodid.gr/release-2022/food-menu",
+		title: "Food",
+		url: "https://www.wikodid.gr/release-2022/food-menu/en/",
 		img: {
 			src: "/menu-categories/food.png",
 			alt: "Food Image Category",
 		},
 	},
 	{
-		title: "Ποτό",
-		url: "https://www.wikodid.gr/release-2022/drinks-menu",
+		title: "Drinks",
+		url: "https://www.wikodid.gr/release-2022/drinks-menu/en/",
 		img: {
 			src: "/menu-categories/drinks.png",
 			alt: "Drinks Image Category",
 		},
 	},
 	{
-		title: "Παγωτό",
-		url: "https://www.wikodid.gr/release-2022/ice-cream-menu",
+		title: "Ice Cream",
+		url: "https://www.wikodid.gr/release-2022/ice-cream-menu/en/",
 		img: {
 			src: "/menu-categories/ice-cream.png",
 			alt: "Ice Cream Image Category",

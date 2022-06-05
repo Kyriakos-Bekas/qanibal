@@ -1,0 +1,31 @@
+import styles from "@/components/Release/Hero/Hero.module.css";
+
+const Hero = () => {
+	return (
+		<section className={styles.hero}>
+			<h1 className={styles.headline}>
+				<span className={styles.container}>
+					Release <span className={styles["the-earth"]}>the earth</span>
+				</span>
+				<span className={styles["from-plastic"]}>from plastic</span>
+			</h1>
+
+			<p className={styles.date}>June 8th - July 23rd 2022</p>
+
+			<img src='/hero-overlay.png' alt='overlay' className={styles.overlay} />
+			<img
+				src='/hero-overlay-desktop.png'
+				alt='overlay'
+				className={styles["overlay-desktop"]}
+			/>
+			<img
+				src='/hero-overlay-tablet.png'
+				alt='overlay'
+				className={styles["overlay-tablet"]}
+			/>
+			<img src='/hero-banner.jpg' alt='Banner' className={styles.banner} />
+		</section>
+	);
+};
+
+export default Hero;

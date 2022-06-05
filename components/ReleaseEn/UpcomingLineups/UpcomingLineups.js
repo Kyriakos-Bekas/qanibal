@@ -7,7 +7,7 @@ const UpcomingLineups = ({ lineups }) => {
 	if (lineups.length === 0)
 		return (
 			<div id='upcoming-lineups' className={`${styles.end} ${styles.upcoming}`}>
-				<p>Δεν θα υπάρξουν άλλα lineups. Θα τα πούμε του χρόνου!</p>
+				<p>There will be no more lineups. See you next year!</p>
 			</div>
 		);
 
@@ -16,8 +16,8 @@ const UpcomingLineups = ({ lineups }) => {
 			<h1>Upcoming Lineups</h1>
 
 			<p>
-				Σε ενδιαφέρει κάποια από τις επόμενες συναυλίες; Προλαβαίνεις ακόμη να
-				κλείσεις εισητήριο πατώντας επάνω στο lineup που θες!
+				Are you interested in any upcoming concerts? You can still buy a ticket
+				by clicking on the lineup of your choice!
 			</p>
 
 			<Link href='https://www.releaseathens.gr/tickets/'>
