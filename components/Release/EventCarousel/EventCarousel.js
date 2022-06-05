@@ -39,9 +39,12 @@ const EventsCarousel = ({ bands }) => {
 					onMouseLeave={handleMouseLeave}
 					onMouseMove={(e) => handleMouseMove(e)}
 					onWheel={(e) => handleWheel(e)}>
-					{bands.map((band) => (
-						<Event key={band.title} title={band.title} img={band.img} />
-					))}
+					{bands.map((band) => {
+						if (band.img.src !== "/bands/.webp")
+							return (
+								<Event key={band.title} title={band.title} img={band.img} />
+							);
+					})}
 				</div>
 			</div>
 		</div>

@@ -475,7 +475,7 @@ export const lineups = [
 // Transport Links List
 export const transportLinks = [
 	{
-		title: "Mtero / Subway",
+		title: "Metro / Subway",
 		url: "https://www.google.com/maps/dir/Plateia+nerou,+Kallithea/%CE%A3%CF%84%CE%B1%CE%B8%CE%BC%CE%BF%CF%82+%CE%B7%CF%83%CE%B1%CF%80+%CF%86%CE%B1%CE%BB%CE%B7%CF%81%CE%BF,+Pireas/@37.939602,23.6712624,15z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x14a1bc141e8c9825:0x508a4c5f64420ab5!2m2!1d23.6873308!2d37.9386584!1m5!1m1!1s0x14a1bb5d2e6ae8d3:0x9258afc11e7b6172!2m2!1d23.6652257!2d37.9449986?utm_medium=s2email&shorturl=1",
 		img: {
 			src: "/transport/athens-metro.png",

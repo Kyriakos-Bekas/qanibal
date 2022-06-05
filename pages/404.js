@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 import styles from "@/styles/404.module.css";
 
 const NotFound = () => {
@@ -9,10 +7,6 @@ const NotFound = () => {
 			<h2>
 				Oops... Seems like the page you are looking for doesn&apos;t exist
 			</h2>
-
-			<Link href='/'>
-				<a>Go to Home</a>
-			</Link>
 		</div>
 	);
 };
