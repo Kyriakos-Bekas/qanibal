@@ -1,7 +1,8 @@
 // Lineup List
 export const lineups = [
 	{
-		date: "Τετάρτη 8/6/2022",
+		date: "Wednesday 8/6/2022",
+		url: "https://www.viva.gr/tickets/music/plateia-nerou/release-athens-2022-bauhaus-en/",
 		thumbnail: {
 			src: "https://www.releaseathens.gr/wp-content/uploads/2022/02/Square-event-cover-Bauhaus-JAMC-Deus-300x300.jpg",
 			alt: "thumbnail",
@@ -28,10 +29,25 @@ export const lineups = [
 					alt: "thumbnail",
 				},
 			},
+			{
+				title: "Strawberry Pills",
+				img: {
+					src: "/",
+					alt: "thumbnail",
+				},
+			},
+			{
+				title: "Youth Valley",
+				img: {
+					src: "/",
+					alt: "thumbnail",
+				},
+			},
 		],
 	},
 	{
-		date: "Τετάρτη 15/6/2022",
+		date: "Wednesday 15/6/2022",
+		url: "https://www.viva.gr/tickets/music/plateia-nerou/release-athens-2022-nick-cave-and-the-bad-seeds-en/",
 		thumbnail: {
 			src: "https://www.releaseathens.gr/wp-content/uploads/2021/12/Square-event-cover-Cave-Mog-Font-300x300.jpg",
 			alt: "thumbnail",
@@ -58,10 +74,25 @@ export const lineups = [
 					alt: "thumbnail",
 				},
 			},
+			{
+				title: "Sugar for the Pill",
+				img: {
+					src: "/",
+					alt: "thumbnail",
+				},
+			},
+			{
+				title: "Royal Arch",
+				img: {
+					src: "/",
+					alt: "thumbnail",
+				},
+			},
 		],
 	},
 	{
-		date: "Σάββατο 18/6/2022",
+		date: "Saturday 18/6/2022",
+		url: "https://www.viva.gr/tickets/music/plateia-nerou/release-athens-2022-parov-stelar-en/",
 		thumbnail: {
 			src: "https://www.releaseathens.gr/wp-content/uploads/2022/04/Square-event-cover-PAROV-300x300.jpg",
 			alt: "thumbnail",
@@ -81,10 +112,18 @@ export const lineups = [
 					alt: "thumbnail",
 				},
 			},
+			{
+				title: "Kevin De Vries",
+				img: {
+					src: "/",
+					alt: "thumbnail",
+				},
+			},
 		],
 	},
 	{
-		date: "Τετάρτη 22/6/2022",
+		date: "Wednesday 22/6/2022",
+		url: "https://www.viva.gr/tickets/music/festivalrelease-athens-2022-manowar-en/",
 		thumbnail: {
 			src: "https://www.releaseathens.gr/wp-content/uploads/2021/11/Square-event-cover-manowar-300x300.jpg",
 			alt: "thumbnail",
@@ -111,10 +150,18 @@ export const lineups = [
 					alt: "thumbnail",
 				},
 			},
+			{
+				title: "Meden Agan",
+				img: {
+					src: "/",
+					alt: "thumbnail",
+				},
+			},
 		],
 	},
 	{
-		date: "Σάββατο 25/6/2022",
+		date: "Saturday 25/6/2022",
+		url: "https://www.viva.gr/tickets/music/release-athens-2022-giannis-aggelakas-paulos-paulidis-paidi-trauma/",
 		thumbnail: {
 			src: "https://www.releaseathens.gr/wp-content/uploads/2022/05/Square-event-cover-pavlidis-aggelakas-300x300.jpg",
 			alt: "thumbnail",
@@ -144,7 +191,8 @@ export const lineups = [
 		],
 	},
 	{
-		date: "Δευτέρα 27/6/2022",
+		date: "Monday 27/6/2022",
+		url: "https://www.viva.gr/tickets/music/festivalrelease-athens-2022-london-grammar-en/",
 		thumbnail: {
 			src: "https://www.releaseathens.gr/wp-content/uploads/2022/03/Square-event-cover-LGLPHP-300x300.jpg",
 			alt: "thumbnail",
@@ -171,10 +219,25 @@ export const lineups = [
 					alt: "thumbnail",
 				},
 			},
+			{
+				title: "D3LTA",
+				img: {
+					src: "/",
+					alt: "thumbnail",
+				},
+			},
+			{
+				title: "Daphne and the Fuzz",
+				img: {
+					src: "/",
+					alt: "thumbnail",
+				},
+			},
 		],
 	},
 	{
-		date: "Πέμπτη 30/6/2022",
+		date: "Thursday 30/6/2022",
+		url: "https://www.viva.gr/tickets/music/plateia-nerou/release-athens-2022-pet-shop-boys-en/",
 		thumbnail: {
 			src: "https://www.releaseathens.gr/wp-content/uploads/2022/05/Square-event-cover-PSBTCKB-300x300.jpg",
 			alt: "thumbnail",
@@ -201,10 +264,25 @@ export const lineups = [
 					alt: "thumbnail",
 				},
 			},
+			{
+				title: "Mazoha",
+				img: {
+					src: "/",
+					alt: "thumbnail",
+				},
+			},
+			{
+				title: "Bobya Cottisha",
+				img: {
+					src: "/",
+					alt: "thumbnail",
+				},
+			},
 		],
 	},
 	{
-		date: "Σάββατο 2/7/2022",
+		date: "Saturday 2/7/2022",
+		url: "https://www.viva.gr/tickets/music/festivalrelease-athens-2022-iggy-pop-liam-gallagher-en/",
 		thumbnail: {
 			src: "https://www.releaseathens.gr/wp-content/uploads/2022/01/Square-event-cover-iggy-liam-300x300.jpg",
 			alt: "thumbnail",
@@ -238,10 +316,18 @@ export const lineups = [
 					alt: "thumbnail",
 				},
 			},
+			{
+				title: "The Noise Figures",
+				img: {
+					src: "/",
+					alt: "thumbnail",
+				},
+			},
 		],
 	},
 	{
-		date: "Παρασκευή 15/7/2022",
+		date: "Friday 15/7/2022",
+		url: "https://www.viva.gr/tickets/music/release-athens-2022-presents-judas-priest-en/",
 		thumbnail: {
 			src: "https://www.releaseathens.gr/wp-content/uploads/2022/02/Square-event-cover-Judas-1-300x300.jpg",
 			alt: "thumbnail",
@@ -271,7 +357,8 @@ export const lineups = [
 		],
 	},
 	{
-		date: "Τρίτη 19/7/2022",
+		date: "Tuesday 19/7/2022",
+		url: "https://www.viva.gr/tickets/music/festivalrelease-athens-2022-clutch-en/",
 		thumbnail: {
 			src: "https://www.releaseathens.gr/wp-content/uploads/2021/11/Clutch-Square-event-cover-300x300.jpg",
 			alt: "thumbnail",
@@ -284,10 +371,39 @@ export const lineups = [
 					alt: "thumbnail",
 				},
 			},
+			{
+				title: "The Hellacopters",
+				img: {
+					src: "/",
+					alt: "thumbnail",
+				},
+			},
+			{
+				title: "Blue Pills",
+				img: {
+					src: "/",
+					alt: "thumbnail",
+				},
+			},
+			{
+				title: "Deaf Radio",
+				img: {
+					src: "/",
+					alt: "thumbnail",
+				},
+			},
+			{
+				title: "ADAM",
+				img: {
+					src: "/",
+					alt: "thumbnail",
+				},
+			},
 		],
 	},
 	{
-		date: "Πέμπτη 21/7/2022",
+		date: "Thursday 21/7/2022",
+		url: "https://www.viva.gr/tickets/music/release-athens-2022-sabaton-en/",
 		thumbnail: {
 			src: "https://www.releaseathens.gr/wp-content/uploads/2021/12/Square-event-cover-sabaton-blind-epica-300x300.jpg",
 			alt: "thumbnail",
@@ -314,10 +430,25 @@ export const lineups = [
 					alt: "thumbnail",
 				},
 			},
+			{
+				title: "Enemy of Reality",
+				img: {
+					src: "/",
+					alt: "thumbnail",
+				},
+			},
+			{
+				title: "The Silent Rage",
+				img: {
+					src: "/",
+					alt: "thumbnail",
+				},
+			},
 		],
 	},
 	{
-		date: "Σάββατο 23/7/2022",
+		date: "Saturday 23/7/2022",
+		url: "https://www.viva.gr/tickets/music/plateia-nerou/release-athens-2022-slipknot-en/",
 		thumbnail: {
 			src: "https://www.releaseathens.gr/wp-content/uploads/2021/12/Square-event-cover-SlipknotSepultura-300x300.jpg",
 			alt: "thumbnail",

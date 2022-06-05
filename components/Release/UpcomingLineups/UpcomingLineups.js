@@ -1,4 +1,3 @@
-import Link from "next/link";
 import LineupCarousel from "@/components/Release/LineupCarousel/LineupCarousel";
 
 import styles from "@/components/Release/UpcomingLineups/UpcomingLineups.module.css";
@@ -19,12 +18,6 @@ const UpcomingLineups = ({ lineups }) => {
 				Σε ενδιαφέρει κάποια από τις επόμενες συναυλίες; Προλαβαίνεις ακόμη να
 				κλείσεις εισητήριο πατώντας επάνω στο lineup που θες!
 			</p>
-
-			<Link href='https://www.releaseathens.gr/tickets/'>
-				<a className={styles.btn} target='_blank' rel='noopener,noreferrer'>
-					Buy tickets
-				</a>
-			</Link>
 
 			<LineupCarousel lineups={lineups} />
 		</section>

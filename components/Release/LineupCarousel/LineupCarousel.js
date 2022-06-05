@@ -43,6 +43,7 @@ const LineupCarousel = ({ lineups }) => {
 						<Lineup
 							key={lineup.date}
 							date={lineup.date}
+							link={lineup.url}
 							thumbnail={lineup.thumbnail}
 						/>
 					))}

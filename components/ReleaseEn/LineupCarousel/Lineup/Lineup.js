@@ -1,25 +1,31 @@
+import Link from "next/link";
+
 import styles from "@/components/Release/LineupCarousel/Lineup/Lineup.module.css";
 
 const Lineup = (props) => {
 	return (
-		<article className={styles.lineup}>
-			<img
-				className={styles.thumbnail}
-				src={props.thumbnail.src}
-				alt={props.thumbnail.alt}
-			/>
+		<Link href={props.link}>
+			<a target='_blank'>
+				<article className={styles.lineup}>
+					<img
+						className={styles.thumbnail}
+						src={props.thumbnail.src}
+						alt={props.thumbnail.alt}
+					/>
 
-			<div className={styles.details}>
-				<svg
-					xmlns='http://www.w3.org/2000/svg'
-					viewBox='0 0 448 512'
-					className={styles.icon}>
-					<path d='M96 32C96 14.33 110.3 0 128 0C145.7 0 160 14.33 160 32V64H288V32C288 14.33 302.3 0 320 0C337.7 0 352 14.33 352 32V64H400C426.5 64 448 85.49 448 112V160H0V112C0 85.49 21.49 64 48 64H96V32zM448 464C448 490.5 426.5 512 400 512H48C21.49 512 0 490.5 0 464V192H448V464z'></path>
-				</svg>
+					<div className={styles.details}>
+						<svg
+							xmlns='http://www.w3.org/2000/svg'
+							viewBox='0 0 448 512'
+							className={styles.icon}>
+							<path d='M96 32C96 14.33 110.3 0 128 0C145.7 0 160 14.33 160 32V64H288V32C288 14.33 302.3 0 320 0C337.7 0 352 14.33 352 32V64H400C426.5 64 448 85.49 448 112V160H0V112C0 85.49 21.49 64 48 64H96V32zM448 464C448 490.5 426.5 512 400 512H48C21.49 512 0 490.5 0 464V192H448V464z'></path>
+						</svg>
 
-				<p className={styles.date}>{props.date}</p>
-			</div>
-		</article>
+						<p className={styles.date}>{props.date}</p>
+					</div>
+				</article>
+			</a>
+		</Link>
 	);
 };
 
