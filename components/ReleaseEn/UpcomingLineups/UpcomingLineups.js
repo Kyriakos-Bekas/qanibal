@@ -1,4 +1,3 @@
-import Link from "next/link";
 import LineupCarousel from "@/components/Release/LineupCarousel/LineupCarousel";
 
 import styles from "@/components/Release/UpcomingLineups/UpcomingLineups.module.css";
@@ -19,12 +18,6 @@ const UpcomingLineups = ({ lineups }) => {
 				Are you interested in any upcoming concerts? You can still buy a ticket
 				by clicking on the lineup of your choice!
 			</p>
-
-			<Link href='https://www.releaseathens.gr/tickets/'>
-				<a className={styles.btn} target='_blank' rel='noopener,noreferrer'>
-					Buy tickets
-				</a>
-			</Link>
 
 			<LineupCarousel lineups={lineups} />
 		</section>
