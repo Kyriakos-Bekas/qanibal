@@ -1,4 +1,3 @@
-import Link from "next/link";
 import MenuItem from "@/components/Release/Menus/MenuItem/MenuItem";
 
 import styles from "@/components/Release/Menus/Menus.module.css";

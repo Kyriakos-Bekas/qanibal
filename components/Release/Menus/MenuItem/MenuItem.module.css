@@ -2,7 +2,6 @@
 	margin: 1.5rem -5vw;
 
 	min-height: 6rem;
-	/* width: 100vw; */
 
 	display: flex;
 	justify-content: flex-start;
@@ -18,7 +17,7 @@
 	color: #fff;
 	font-size: 1.25rem;
 
-	background-color: #367a28;
+	background-color: #339c23;
 
 	clip-path: polygon(0 0, 80% 0, 65% 100%, 0% 100%);
 	-webkit-clip-path: polygon(0 0, 80% 0, 65% 100%, 0% 100%);

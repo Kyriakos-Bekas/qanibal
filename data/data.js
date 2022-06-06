@@ -35,14 +35,14 @@ export const lineups = [
 			{
 				title: "Strawberry Pills",
 				img: {
-					src: "/bands/.webp",
+					src: "/bands/strawberry-pills.jpg",
 					alt: "thumbnail",
 				},
 			},
 			{
 				title: "Youth Valley",
 				img: {
-					src: "/bands/.webp",
+					src: "/bands/youth-valley.jpg",
 					alt: "thumbnail",
 				},
 			},
