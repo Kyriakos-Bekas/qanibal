@@ -12,11 +12,11 @@ const UpcomingLineups = ({ lineups }) => {
 
 	return (
 		<section id='upcoming-lineups' className={styles.upcoming}>
-			<h1>Upcoming Lineups</h1>
+			<h1>Ανακάλυψε τις υπόλοιπες φεστιβαλικές ημέρες</h1>
 
 			<p>
-				Σε ενδιαφέρει κάποια από τις επόμενες συναυλίες; Προλαβαίνεις ακόμη να
-				κλείσεις εισητήριο πατώντας επάνω στο lineup που θες!
+				Μάθε το full lineup των 12 ημερών του φεστιβάλ & κλείσε τώρα το
+				εισιτήριό σου!
 			</p>
 
 			<LineupCarousel lineups={lineups} />

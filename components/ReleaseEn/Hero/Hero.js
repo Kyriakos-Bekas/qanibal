@@ -3,7 +3,7 @@ import styles from "@/components/Release/Hero/Hero.module.css";
 const Hero = () => {
 	return (
 		<section className={styles.hero}>
-			<img
+			{/* <img
 				src='/hero/release-logo.png'
 				alt='Release Athens Logo'
 				className={styles.logo}
@@ -17,7 +17,23 @@ const Hero = () => {
 
 			<p className={styles.date}>June 8th - July 23rd 2022</p>
 
-			<img src='/hero/banner.jpg' alt='Banner' className={styles.banner} />
+			<img src='/hero/banner.jpg' alt='Banner' className={styles.banner} /> */}
+
+			<img
+				src='/banner.png'
+				alt='Banner'
+				className={`${styles.banner} ${styles["banner-mobile"]}`}
+			/>
+			<img
+				src='/banner-tablet.png'
+				alt='Banner'
+				className={`${styles.banner} ${styles["banner-tablet"]}`}
+			/>
+			<img
+				src='/banner-desktop.png'
+				alt='Banner'
+				className={`${styles.banner} ${styles["banner-desktop"]}`}
+			/>
 		</section>
 	);
 };

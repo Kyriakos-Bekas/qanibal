@@ -12,11 +12,11 @@ const UpcomingLineups = ({ lineups }) => {
 
 	return (
 		<section id='upcoming-lineups' className={styles.upcoming}>
-			<h1>Upcoming Lineups</h1>
+			<h1>Discover the rest of the festival days</h1>
 
 			<p>
-				Are you interested in any upcoming concerts? You can still buy a ticket
-				by clicking on the lineup of your choice!
+				Learn the full lineup of the entire 12 days of the festival & book your
+				ticket now!
 			</p>
 
 			<LineupCarousel lineups={lineups} />

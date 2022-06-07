@@ -32,7 +32,7 @@ export const lineups = [
 			{
 				title: "Strawberry Pills",
 				img: {
-					src: "/bands/strawberry-pills.jpg",
+					src: "/bands/strawberry-pills.jpeg",
 					alt: "thumbnail",
 				},
 			},
@@ -533,11 +533,11 @@ export const catalogues = [
 		},
 	},
 	{
-		title: "Ποτό",
+		title: "Κοκτέιλ",
 		url: "https://www.wikodid.gr/release-2022/drinks-menu",
 		img: {
-			src: "/menu-categories/drinks.png",
-			alt: "Drinks Image Category",
+			src: "/menu-categories/cocktails.png",
+			alt: "Cocktails Image Category",
 		},
 	},
 	{

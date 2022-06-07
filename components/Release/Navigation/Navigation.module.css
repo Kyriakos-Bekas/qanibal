@@ -11,7 +11,7 @@
 
 	color: #fff;
 
-	background-color: rgba(0, 0, 0, 0.8);
+	background-color: #0b0b0b;
 	backdrop-filter: blur(2px);
 
 	box-shadow: rgba(0, 0, 0, 0.13) 0px 2px 4px 0px;
@@ -187,10 +187,6 @@
 }
 
 /* Code for open nav */
-
-.nav-open {
-	background-color: #0b0b0b;
-}
 
 .nav-open .line-1 {
 	transform: translateY(9px) rotate(45deg);

@@ -18,7 +18,7 @@ const Footer = () => {
 							</Link>
 						</li>
 						<li>
-							<Link href='https://www.wikodid.gr/'>
+							<Link href='https://www.wikodid.com/'>
 								<a>Wikodid</a>
 							</Link>
 						</li>

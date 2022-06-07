@@ -1,5 +1,6 @@
 .hero {
-	position: relative;
+	margin-top: 60px;
+	/* position: relative;
 
 	padding: 6vh 5% 0 5%;
 
@@ -10,9 +11,9 @@
 	align-items: center;
 	flex-direction: column;
 
-	z-index: 1;
+	z-index: 1; */
 }
-
+/* 
 .hero-title,
 .logo {
 	z-index: 2;
@@ -71,16 +72,56 @@
 	user-select: none;
 
 	z-index: 1;
+} */
+
+.banner {
+	max-width: 100%;
+
+	/* object-fit: cover; */
+
+	display: block;
+}
+
+.banner-tablet {
+	display: none;
+}
+
+.banner-desktop {
+	display: none;
 }
 
 @media screen and (min-width: 768px) and (max-width: 800px) {
-	.hero {
+	/* .hero {
 		height: 50vh;
+	} */
+
+	.banner-mobile {
+		display: none;
+	}
+
+	.banner-tablet {
+		display: block;
+	}
+
+	.banner-desktop {
+		display: none;
 	}
 }
 
 @media screen and (min-width: 801px) {
-	.hero {
+	/* .hero {
 		height: 95vh;
+	} */
+
+	.banner-mobile {
+		display: none;
+	}
+
+	.banner-tablet {
+		display: none;
+	}
+
+	.banner-desktop {
+		display: block;
 	}
 }
