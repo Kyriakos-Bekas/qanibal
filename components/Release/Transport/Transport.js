@@ -6,7 +6,7 @@ const Transport = ({ transportLinks }) => {
 	return (
 		<section className={styles.transport} id='transport'>
 			<div className={styles.details}>
-				<h1>Τελείωσε η συναυλία;</h1>
+				<h1>Τελείωσε η σημερινή φεστιβαλική ημέρα;</h1>
 				<p>Κανένα πρόβλημα!</p>
 				<p>Διάλεξε τον ευκολότερο τρόπο για να επιστρέψεις</p>
 			</div>

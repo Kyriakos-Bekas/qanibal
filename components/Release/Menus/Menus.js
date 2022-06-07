@@ -21,6 +21,12 @@ const Menus = ({ catalogues }) => {
 					))}
 				</div>
 			</div>
+
+			<Link href='https://www.wikodid.gr/release-2022/general-pricelist'>
+				<a target='_blank' className={styles["general-pricelist"]}>
+					Δες τον γενικό τιμοκατάλογο
+				</a>
+			</Link>
 		</section>
 	);
 };

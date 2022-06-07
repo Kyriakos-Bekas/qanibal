@@ -1,3 +1,4 @@
+import Link from "next/link";
 import MenuItem from "@/components/Release/Menus/MenuItem/MenuItem";
 
 import styles from "@/components/Release/Menus/Menus.module.css";
@@ -20,6 +21,12 @@ const Menus = ({ catalogues }) => {
 					))}
 				</div>
 			</div>
+
+			<Link href='https://www.wikodid.gr/release-2022/general-pricelist/en'>
+				<a target='_blank' className={styles["general-pricelist"]}>
+					See the general pricelist
+				</a>
+			</Link>
 		</section>
 	);
 };
