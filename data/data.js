@@ -12,15 +12,13 @@ export const lineups = [
 				title: "Bauhaus",
 				img: {
 					src: "/bands/bauhaus.webp",
-					src: "https://www.releaseathens.gr/wp-content/uploads/2021/12/bauhaus-450x450.jpg",
 					alt: "thumbnail",
 				},
 			},
 			{
 				title: "The Jesus And mary Chain",
 				img: {
-					src: "/bands/jamtc.webp",
-					src: "https://www.releaseathens.gr/wp-content/uploads/2022/02/JAMC1-1-450x450.jpg",
+					src: "/bands/jatmc.webp",
 					alt: "thumbnail",
 				},
 			},
@@ -28,7 +26,6 @@ export const lineups = [
 				title: "Deus",
 				img: {
 					src: "/bands/deus.webp",
-					src: "https://www.releaseathens.gr/wp-content/uploads/2022/02/deus-450x450.jpg",
 					alt: "thumbnail",
 				},
 			},

@@ -8,11 +8,7 @@ const TransportLink = (props) => {
 			<a className={styles.link} target='_blank' rel='noopener'>
 				<img src={props.img.src} alt={props.img.alt} className={styles.logo} />
 				<span>{props.title}</span>
-				<img
-					src='https://cdn-icons-png.flaticon.com/512/154/154843.png'
-					alt='link'
-					className={styles.icon}
-				/>
+				<img src='/other/link.png' alt='link' className={styles.icon} />
 			</a>
 		</Link>
 	);
