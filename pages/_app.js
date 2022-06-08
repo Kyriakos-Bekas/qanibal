@@ -3,7 +3,7 @@ import Script from "next/script";
 import { useRouter } from "next/router";
 import { useEffect } from "react";
 
-import * as ga from "@/lib/google-analytics/index";
+import { pageview } from "@/lib/ga";
 
 import "@/styles/globals.css";
 
@@ -12,7 +12,7 @@ function MyApp({ Component, pageProps }) {
 
 	useEffect(() => {
 		const handleRouteChange = (url) => {
-			ga.pageview(url);
+			pageview(url);
 		};
 
 		router.events.on("routeChangeComplete", handleRouteChange);
@@ -24,10 +24,6 @@ function MyApp({ Component, pageProps }) {
 
 	return (
 		<>
-			<Head>
-				<link rel='icon' type='image/svg+xml' href='/favicon.svg' />
-				<link rel='icon' type='image/png' href='/favicon.png' />
-			</Head>
 			<Script
 				src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID}`}
 				strategy='afterInteractive'

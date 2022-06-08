@@ -1,3 +1,4 @@
+import Head from "next/head";
 import { useRouter } from "next/router";
 import { useEffect, useRef } from "react";
 
@@ -17,10 +18,19 @@ const NotFound = () => {
 	}, []);
 
 	return (
-		<div className={styles.container}>
-			<h1>404</h1>
-			<h2 ref={text}></h2>
-		</div>
+		<>
+			<Head>
+				<link rel='icon' type='image/svg+xml' href='/favicon.svg' />
+				<link rel='icon' type='image/png' href='/favicon.png' />
+
+				<title>Page Not Found</title>
+			</Head>
+
+			<div className={styles.container}>
+				<h1>404</h1>
+				<h2 ref={text}></h2>
+			</div>
+		</>
 	);
 };
 

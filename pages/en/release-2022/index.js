@@ -18,6 +18,9 @@ const Home = () => {
 	return (
 		<>
 			<Head>
+				<link rel='icon' type='image/svg+xml' href='/favicon.svg' />
+				<link rel='icon' type='image/png' href='/favicon.png' />
+
 				<title>Release Athens 2022 - Festival | Qanibal</title>
 				<meta
 					name='description'
