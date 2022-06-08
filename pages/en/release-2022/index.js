@@ -18,7 +18,7 @@ const Home = () => {
 	return (
 		<>
 			<Head>
-				<title>Release Athens | Qanibal</title>
+				<title>Release Athens 2022 - Festival | Qanibal</title>
 				<meta
 					name='description'
 					content='This is the Release Athens Event webpage. Powered by Wikodid: Qanibal.'
