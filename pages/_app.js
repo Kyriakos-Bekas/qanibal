@@ -29,7 +29,7 @@ function MyApp({ Component, pageProps }) {
 				<link rel='icon' type='image/png' href='/favicon.png' />
 			</Head>
 			<Script
-				src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GOOGLE_ANALYTICS_ID}`}
+				src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID}`}
 				strategy='afterInteractive'
 			/>
 
@@ -39,7 +39,7 @@ function MyApp({ Component, pageProps }) {
 							function gtag(){dataLayer.push(arguments);}
 							gtag('js', new Date());
 						  
-							gtag('config', '${process.env.GOOGLE_ANALYTICS_ID}');
+							gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID}');
 						`}
 			</Script>
 
