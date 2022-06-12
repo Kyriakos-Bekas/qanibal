@@ -24,7 +24,7 @@ const Menus = ({ catalogues }) => {
 
 			<Link href='https://www.wikodid.gr/release-2022/general-pricelist/en'>
 				<a target='_blank' className={styles["general-pricelist"]}>
-					See the general pricelist
+					Pricelist with Marks
 				</a>
 			</Link>
 		</section>

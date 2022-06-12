@@ -503,7 +503,17 @@ export const transportLinks = [
 // Menu Categories List
 export const catalogues = [
 	{
+		title: "Ice Cream",
+		additional: "Cash & POS",
+		url: "https://www.wikodid.gr/release-2022/ice-cream-menu/en/",
+		img: {
+			src: "/menu-categories/ice-cream.png",
+			alt: "Ice Cream Image Category",
+		},
+	},
+	{
 		title: "Food",
+		additional: "Marks",
 		url: "https://www.wikodid.gr/release-2022/food-menu/en/",
 		img: {
 			src: "/menu-categories/food.png",
@@ -512,18 +522,11 @@ export const catalogues = [
 	},
 	{
 		title: "Cocktails",
+		additional: "Marks",
 		url: "https://www.wikodid.gr/release-2022/drinks-menu/en/",
 		img: {
 			src: "/menu-categories/cocktails.png",
 			alt: "Cocktails Image Category",
-		},
-	},
-	{
-		title: "Ice Cream",
-		url: "https://www.wikodid.gr/release-2022/ice-cream-menu/en/",
-		img: {
-			src: "/menu-categories/ice-cream.png",
-			alt: "Ice Cream Image Category",
 		},
 	},
 ];
