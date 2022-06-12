@@ -80,14 +80,14 @@ export const lineups = [
 			{
 				title: "Sugar for the Pill",
 				img: {
-					src: "/bands/.webp",
+					src: "/bands/sugarforthepill.jpg",
 					alt: "thumbnail",
 				},
 			},
 			{
 				title: "Royal Arch",
 				img: {
-					src: "/bands/.webp",
+					src: "/bands/royalarch.jpg",
 					alt: "thumbnail",
 				},
 			},
