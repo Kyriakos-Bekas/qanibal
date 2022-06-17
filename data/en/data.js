@@ -119,6 +119,13 @@ export const lineups = [
 					alt: "thumbnail",
 				},
 			},
+			{
+				title: "El Siciliano",
+				img: {
+					src: "/bands/el-siciliano.jpg",
+					alt: "thumbnail",
+				},
+			},
 		],
 	},
 	{
