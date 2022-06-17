@@ -11,7 +11,7 @@ const NotFound = () => {
 	useEffect(() => {
 		if (router.asPath.substring(1, 3) === "en") {
 			text.current.textContent =
-				"Oops... Seems like the page you are looking for doesn't exist";
+				"Oops... The page you are looking for doesn't exist";
 		} else {
 			text.current.textContent = "Η σελίδα που ψάχνεις δεν υπάρχει...";
 		}
