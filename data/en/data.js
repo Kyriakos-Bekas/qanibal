@@ -115,7 +115,7 @@ export const lineups = [
 			{
 				title: "Kevin De Vries",
 				img: {
-					src: "/bands/kevin.webp",
+					src: "/bands/kevin.jpg",
 					alt: "thumbnail",
 				},
 			},
