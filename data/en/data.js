@@ -160,7 +160,7 @@ export const lineups = [
 			{
 				title: "Meden Agan",
 				img: {
-					src: "/bands/.webp",
+					src: "/bands/meden-agan.jpg",
 					alt: "thumbnail",
 				},
 			},

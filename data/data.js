@@ -57,7 +57,6 @@ export const lineups = [
 				title: "Nick Cave & The Bad Seeds",
 				img: {
 					src: "/bands/nick-cave.webp",
-					src: "https://www.releaseathens.gr/wp-content/uploads/2021/11/preview-gallery-nick-cave-the-bad-seeds-450x450.jpg",
 					alt: "thumbnail",
 				},
 			},
@@ -65,7 +64,6 @@ export const lineups = [
 				title: "Mogwai",
 				img: {
 					src: "/bands/mogwai.webp",
-					src: "https://www.releaseathens.gr/wp-content/uploads/2021/11/mogwai2022-1-450x450.jpg",
 					alt: "thumbnail",
 				},
 			},
@@ -73,7 +71,6 @@ export const lineups = [
 				title: "Fontaines D.C.",
 				img: {
 					src: "/bands/paul.webp",
-					src: "https://www.releaseathens.gr/wp-content/uploads/2021/12/a18e33c3_Paul-Good-Night-Films-450x450.jpg",
 					alt: "thumbnail",
 				},
 			},
@@ -105,7 +102,6 @@ export const lineups = [
 				title: "Parov Stelar",
 				img: {
 					src: "/bands/parov.webp",
-					src: "https://www.releaseathens.gr/wp-content/uploads/2021/11/Wuschelkopf-c-Parov-Stelar-450x450.jpg",
 					alt: "thumbnail",
 				},
 			},
@@ -113,7 +109,6 @@ export const lineups = [
 				title: "ARTBAT",
 				img: {
 					src: "/bands/artbat.webp",
-					src: "https://www.releaseathens.gr/wp-content/uploads/2022/04/artist-450x450.jpg",
 					alt: "thumbnail",
 				},
 			},
@@ -145,7 +140,6 @@ export const lineups = [
 				title: "Manowar",
 				img: {
 					src: "/bands/manowar.webp",
-					src: "https://www.releaseathens.gr/wp-content/uploads/2021/11/TFB2019-FR_5107-band_APPR-450x450.jpg",
 					alt: "thumbnail",
 				},
 			},
@@ -153,7 +147,6 @@ export const lineups = [
 				title: "Rotting Christ",
 				img: {
 					src: "/bands/rotting-christ.webp",
-					src: "https://www.releaseathens.gr/wp-content/uploads/2021/12/preview-full-RC-image-450x450.jpg",
 					alt: "thumbnail",
 				},
 			},
@@ -161,14 +154,13 @@ export const lineups = [
 				title: "Rhapsody of Fire",
 				img: {
 					src: "/bands/rhapsody.webp",
-					src: "https://www.releaseathens.gr/wp-content/uploads/2022/02/BAND-151-Edit-Final-low-450x450.jpg",
 					alt: "thumbnail",
 				},
 			},
 			{
 				title: "Meden Agan",
 				img: {
-					src: "/bands/.webp",
+					src: "/bands/meden-agan.jpg",
 					alt: "thumbnail",
 				},
 			},
