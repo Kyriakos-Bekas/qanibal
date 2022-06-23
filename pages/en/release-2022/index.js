@@ -12,7 +12,7 @@ import styles from "@/styles/Home.module.css";
 
 import { lineups, transportLinks, catalogues } from "@/data/en/data";
 
-let counter = 3;
+let counter = 4;
 
 const Home = () => {
 	return (
