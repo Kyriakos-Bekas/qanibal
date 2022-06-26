@@ -178,7 +178,6 @@ export const lineups = [
 				title: "Γιάννης Αγγελάκας & 100°C",
 				img: {
 					src: "/bands/aggelakas.webp",
-					src: "https://www.releaseathens.gr/wp-content/uploads/2022/05/apogiortisegiorti_016-450x450.jpg",
 					alt: "thumbnail",
 				},
 			},
@@ -186,7 +185,6 @@ export const lineups = [
 				title: "Παύλος Παυλίδης & Hotel Alaska",
 				img: {
 					src: "/bands/pavlos.webp",
-					src: "https://www.releaseathens.gr/wp-content/uploads/2022/05/PAVLOS-450x450.jpg",
 					alt: "thumbnail",
 				},
 			},
@@ -194,7 +192,6 @@ export const lineups = [
 				title: "Παιδί Τραύμα",
 				img: {
 					src: "/bands/paidi.webp",
-					src: "https://www.releaseathens.gr/wp-content/uploads/2022/05/%CE%A0%CE%B1%CE%B9%CE%B4%CE%B9-%CE%A4%CF%81%CE%B1%CF%85%CE%BC%CE%B1_Eftychia-Vlachou_web-res_19-450x450.jpg",
 					alt: "thumbnail",
 				},
 			},
@@ -212,7 +209,6 @@ export const lineups = [
 				title: "London Grammar",
 				img: {
 					src: "/bands/london-grammar.webp",
-					src: "https://www.releaseathens.gr/wp-content/uploads/2021/12/preview-full-LG_artist_image_1000x1000-450x450.jpg",
 					alt: "thumbnail",
 				},
 			},
@@ -220,7 +216,6 @@ export const lineups = [
 				title: "LP",
 				img: {
 					src: "/bands/lp.webp",
-					src: "https://www.releaseathens.gr/wp-content/uploads/2022/03/IMG_3589-450x450.jpeg",
 					alt: "thumbnail",
 				},
 			},
@@ -228,7 +223,6 @@ export const lineups = [
 				title: "Hooverphonic",
 				img: {
 					src: "/bands/hooverphonic.webp",
-					src: "https://www.releaseathens.gr/wp-content/uploads/2022/03/HVpress3_%C2%A9-Willy-Vanderperre-450x450.jpg",
 					alt: "thumbnail",
 				},
 			},
