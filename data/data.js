@@ -229,14 +229,14 @@ export const lineups = [
 			{
 				title: "D3LTA",
 				img: {
-					src: "/bands/.webp",
+					src: "/bands/delta.jpg",
 					alt: "thumbnail",
 				},
 			},
 			{
 				title: "Daphne and the Fuzz",
 				img: {
-					src: "/bands/.webp",
+					src: "/bands/daphne.jpg",
 					alt: "thumbnail",
 				},
 			},
