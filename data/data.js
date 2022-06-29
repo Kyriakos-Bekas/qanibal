@@ -254,7 +254,6 @@ export const lineups = [
 				title: "Pet Shop Boys",
 				img: {
 					src: "/bands/psb.webp",
-					src: "https://www.releaseathens.gr/wp-content/uploads/2021/11/pet-shop-boys-2-450x450.jpg",
 					alt: "thumbnail",
 				},
 			},
@@ -262,7 +261,6 @@ export const lineups = [
 				title: "Thievery Corporation",
 				img: {
 					src: "/bands/thievery.webp",
-					src: "https://www.releaseathens.gr/wp-content/uploads/2022/04/thieverycorporation-450x450.jpg",
 					alt: "thumbnail",
 				},
 			},
@@ -270,21 +268,20 @@ export const lineups = [
 				title: "K. BHTA",
 				img: {
 					src: "/bands/kb.webp",
-					src: "https://www.releaseathens.gr/wp-content/uploads/2022/05/%CE%9A%CE%92-release-450x450.jpg",
 					alt: "thumbnail",
 				},
 			},
 			{
 				title: "Mazoha",
 				img: {
-					src: "/bands/.webp",
+					src: "/bands/mazoha.jpg",
 					alt: "thumbnail",
 				},
 			},
 			{
 				title: "Bobya Cottisha",
 				img: {
-					src: "/bands/.webp",
+					src: "/bands/bobya.jpg",
 					alt: "thumbnail",
 				},
 			},

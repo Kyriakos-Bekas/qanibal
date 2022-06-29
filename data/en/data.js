@@ -274,14 +274,14 @@ export const lineups = [
 			{
 				title: "Mazoha",
 				img: {
-					src: "/bands/.webp",
+					src: "/bands/mazoha.jpg",
 					alt: "thumbnail",
 				},
 			},
 			{
 				title: "Bobya Cottisha",
 				img: {
-					src: "/bands/.webp",
+					src: "/bands/bobya.jpg",
 					alt: "thumbnail",
 				},
 			},
