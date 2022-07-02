@@ -326,7 +326,7 @@ export const lineups = [
 			{
 				title: "The Noise Figures",
 				img: {
-					src: "/bands/.webp",
+					src: "/bands/noise-figures.jpg",
 					alt: "thumbnail",
 				},
 			},
