@@ -299,7 +299,6 @@ export const lineups = [
 				title: "Iggy Pop",
 				img: {
 					src: "/bands/iggy.webp",
-					src: "https://www.releaseathens.gr/wp-content/uploads/2021/11/preview-full-iggypop-21-450x450.jpg",
 					alt: "thumbnail",
 				},
 			},
@@ -307,7 +306,6 @@ export const lineups = [
 				title: "Liam Gallagher",
 				img: {
 					src: "/bands/liam.webp",
-					src: "https://www.releaseathens.gr/wp-content/uploads/2021/11/preview-full-Liam_Gallagher-450x450.jpg",
 					alt: "thumbnail",
 				},
 			},
@@ -315,7 +313,6 @@ export const lineups = [
 				title: "Sleaford Mods",
 				img: {
 					src: "/bands/sleaford.webp",
-					src: "https://www.releaseathens.gr/wp-content/uploads/2021/12/6b64f59a_OP20088_AM_Sleaford_Mods_5166_06_sRGB-450x450.jpg",
 					alt: "thumbnail",
 				},
 			},
@@ -323,7 +320,6 @@ export const lineups = [
 				title: "The K's",
 				img: {
 					src: "/bands/theks.webp",
-					src: "https://www.releaseathens.gr/wp-content/uploads/2021/12/Photo-Sep-23-6-46-02-PM-450x450.jpg",
 					alt: "thumbnail",
 				},
 			},
