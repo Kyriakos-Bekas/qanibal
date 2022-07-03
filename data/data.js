@@ -344,7 +344,6 @@ export const lineups = [
 				title: "Judas Priest",
 				img: {
 					src: "/bands/judas-priest.webp",
-					src: "https://www.releaseathens.gr/wp-content/uploads/2021/11/Judas-priest-promo-shot-450x450.jpg",
 					alt: "thumbnail",
 				},
 			},
