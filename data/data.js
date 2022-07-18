@@ -475,6 +475,34 @@ export const lineups = [
 					alt: "thumbnail",
 				},
 			},
+			{
+				title: "Jinjer",
+				img: {
+					src: "/bands/jinjer.jpg",
+					alt: "thumbnail",
+				},
+			},
+			{
+				title: "Maplerun",
+				img: {
+					src: "/bands/maplerun.jpg",
+					alt: "thumbnail",
+				},
+			},
+			{
+				title: "Project Renegade",
+				img: {
+					src: "/bands/renegade.jpg",
+					alt: "thumbnail",
+				},
+			},
+			{
+				title: "Vended",
+				img: {
+					src: "/bands/vended.jpg",
+					alt: "thumbnail",
+				},
+			},
 		],
 	},
 ];
