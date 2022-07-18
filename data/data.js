@@ -395,14 +395,14 @@ export const lineups = [
 			{
 				title: "Deaf Radio",
 				img: {
-					src: "/bands/.webp",
+					src: "/bands/deafradio.jpg",
 					alt: "thumbnail",
 				},
 			},
 			{
 				title: "ADAM",
 				img: {
-					src: "/bands/.webp",
+					src: "/bands/adam.jpg",
 					alt: "thumbnail",
 				},
 			},
