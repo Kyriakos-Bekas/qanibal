@@ -440,14 +440,14 @@ export const lineups = [
 			{
 				title: "Enemy of Reality",
 				img: {
-					src: "/bands/.webp",
+					src: "/bands/enemy.jpg",
 					alt: "thumbnail",
 				},
 			},
 			{
 				title: "The Silent Rage",
 				img: {
-					src: "/bands/.webp",
+					src: "/bands/silentrage.jpg",
 					alt: "thumbnail",
 				},
 			},
