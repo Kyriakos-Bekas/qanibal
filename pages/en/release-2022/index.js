@@ -12,7 +12,7 @@ import styles from "@/styles/Home.module.css";
 
 import { lineups, transportLinks, catalogues } from "@/data/en/data";
 
-let counter = 10;
+let counter = 11;
 
 const Home = () => {
 	return (
@@ -42,13 +42,13 @@ const Home = () => {
 					bands={lineups[counter].bands}
 					date={lineups[counter].date}
 				/>
-				<UpcomingLineups
+				{/* <UpcomingLineups
 					lineups={
 						counter + 1 <= lineups.length
 							? lineups.filter((lineup, index) => index > counter)
 							: []
 					}
-				/>
+				/> */}
 				<Map />
 				<Transport transportLinks={transportLinks} />
 			</main>
